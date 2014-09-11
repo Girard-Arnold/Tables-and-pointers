@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1410447963 source:d:\programs\tables and pointers\main.c
+1410456815 source:d:\programs\tables and pointers\main.c
 	<stdio.h>
 	<stdlib.h>
 	"headers.h"
 
-1410358486 d:\programs\tables and pointers\headers.h
+1410456815 d:\programs\tables and pointers\headers.h
 
 1410354946 source:d:\programs\tables and pointers\array.c
 
 1410354284 d:\programs\tables and pointers\array.c
 
-1410448115 source:d:\programs\tables and pointers\headers.c
+1410455851 source:d:\programs\tables and pointers\headers.c
 

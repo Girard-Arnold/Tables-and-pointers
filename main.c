@@ -17,8 +17,7 @@ int main(int argc, char *argv[])
     affiche(tableau, 4);
     sommeTableau(tableau, 4);
     moyenneTableau(tableau, 4);
-
-    copie(tableau, tableau, 4);
-    ordonnerTableau(tableau, 4); //does not work right now
+    ordonnerTableau(tableau, 4);
+    copie(tableau, tableau, 4); //does not work right now
     return 0;
 }
