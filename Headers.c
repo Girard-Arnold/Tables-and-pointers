@@ -52,21 +52,33 @@ printf("\n");
 
 void ordonnerTableau(int tableau[], int tailleTableau)
 {
-        int tableauaide = 0; //will be used to save a value to then give it back at another place of the array
+        int tableauaide = 0; //caches values.
+          printf("%d\n",tableau[0]);
+            printf("%d\n",tableau[1]);
+            printf("%d\n",tableau[2]);
+            printf("%d\n\n\n",tableau[3]);
         int i;
-        for ( i = 0 ; i < tailleTableau -1 ; i++)
+        int j; //pretty much i+1
+        for ( i = 0 ; i < tailleTableau - 1 ; i++)
         {
-            if (tableau[i] < tableau[i+1])
-            {
-                tableauaide = tableau[i+1];
+        for ( j = i ; j < tailleTableau  ; j++)
+        {
+                if (tableau[i] > tableau[j]){
+                printf("i = %d\n", i);
+                tableauaide = tableau[i];
                 printf("tableauaide = %d\n", tableauaide);
-                tableau[i] = tableau[i+1];
-                tableau[i+1] = tableauaide;
-                printf("%d\n", tableauaide);
-            }
+                tableau[i] = tableau[j];
+                tableau[j] = tableauaide;
+                printf("%d\n\n", tableau[i]);
+            printf("%d\n",tableau[0]);
+            printf("%d\n",tableau[1]);
+            printf("%d\n",tableau[2]);
+            printf("%d\n\n\n",tableau[3]);
+        }
+
+        }
 
 
-            }
 }
-
+}
 

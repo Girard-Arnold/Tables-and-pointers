@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-    int tableau[4] = {10, 15, 3};
+    int tableau[4] = {150, 5, 55, 7};
     int tableauoriginal[4];
     int i;
     for (i = 0 ; i < 4 ; i++)
@@ -19,6 +19,6 @@ int main(int argc, char *argv[])
     moyenneTableau(tableau, 4);
 
     copie(tableau, tableau, 4);
-    ordonnerTableau(tableau, 4);
+    ordonnerTableau(tableau, 4); //does not work right now
     return 0;
 }
